@@ -1,0 +1,13 @@
+#* java -ea ataxx.Main
+# Check we can play a game against ourself.
+seed 123458
+block b2
+block c3
+block c4
+manual blue
+auto red
+a1-c1
+c1-a1
+auto blue
+#*move/win
+quit
